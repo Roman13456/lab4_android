@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_file_picker_label" />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:use_controller="true" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:enabled="false"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:paddingStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/link_to_external_video_internet" />
+
+    <EditText
+        android:id="@+id/stream_link"
+        android:hint="@string/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/test_link"
+        android:textColor="#4A87AF" />
+
+    <Button
+        android:id="@+id/button_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/stream" />
+
+</LinearLayout>
+
+

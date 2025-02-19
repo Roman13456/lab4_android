@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Audio/Video player</string>
+    <string name="link_to_external_video_internet">Link to external video(internet)</string>
+    <string name="test_link">https://samplelib.com/lib/preview/mp4/sample-5s.mp4</string>
+    <string name="stream">Stream from link</string>
+    <string name="stop">⏹ Stop</string>
+    <string name="video_file_picker_label">Click to choose video file</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="video_fragment_btn_label">Video</string>
+    <string name="audio_fragment_btn_label">Audio</string>
+    <string name="link_to_external_audio_internet">Link to external audio(Internet)</string>
+    <string name="hint">Enter the link to the file</string>
+    <string name="audio_file_picker_label">Click to choose audio file</string>
+</resources>
